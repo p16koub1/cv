@@ -1,0 +1,134 @@
+---
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{site.data.details.name}}'s Home</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <!--About me Table-->
+        <div class="about-me">
+            <!-- Title-->
+            <h1>{{site.data.details.about-me.title}}</h1>
+            <!-- Table Content (Three Columns)-->
+            <div class="row">
+                <!--Profile Photo Column-->
+                <div class="column">
+                    <div>
+                        <img class="profile-photo" src="{{site.data.details.about-me.photo}}">
+                    </div>
+                </div>
+                <!-- Name and Surname Column-->
+                <div class="column">
+                    <div class="name-surname">
+                        <h2>{{site.data.details.about-me.name}}</h2>
+                        <h2>{{site.data.details.about-me.surname}}</h2>
+                    </div>
+                </div>
+                <!--Contact me Column-->
+                <div class="column">
+                    <div class="contact-me">
+                        <ul>
+                            {% for item in site.data.details.about-me.contact-me.contact-ways %}
+                            <!--Contacts-->
+                            <li>
+                                <table class="contact-table">
+                                    <tr>
+                                        <th><img class="image-bp" src="{{item.contact-img}}"></th>
+                                        <th><p class="contact-p">{{item.contact-label}}</p></th>
+                                    </tr>
+                                </table>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--About me Section (Title and Text)-->
+            <div>
+                <h2 class = "about-me-head">{{site.data.details.about-me.header}}</h2>
+                <p class="about-me-text">{{site.data.details.about-me.text}}</p>
+            </div>
+        </div>
+
+<!---------------------------------------------------------------------------------------->
+        
+<!--Worked For-->
+        <div class="work-for">
+            <h1>{{site.data.details.work-for.title}}</h1>
+            <ul>
+                {% for item in site.data.details.work-for.works %}
+                <li class="work-list-element">    
+                    <div class="work-row">
+                        <!--Image-->
+                        <div class="work-column">
+                            <img class="work-img" src="{{item.work-img}}">
+                        </div>
+                        <!--Title-->
+                        <div class="work-column">
+                            <h2 class="work-title">{{item.work-title}}</h2>
+                        </div>
+                        <!--Description-->
+                        <div class="work-column">
+                            <p class="work-parag">{{item.work-descr}}</p>
+                        </div>
+                    </div>
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+
+<!---------------------------------------------------------------------------------------->
+
+<!--Projects Table-->
+        <div class="projects-container">
+            <!--Projects Table Title-->
+            <h1>{{site.data.details.projects.title}}</h1>
+            <!--Table (Contains all the projects)-->
+            <table class="projects-table">
+                <!--Projects Images-->
+                <tr>
+                    {% for item in site.data.details.projects.project-elements %}
+                        <th class="project-containter">
+                            <img class="project-image" src="{{item.project-img}}">
+                        </th>
+                    {% endfor %}
+                </tr>
+                <!--Projects Descriptions-->
+                <tr>
+                    {% for item in site.data.details.projects.project-elements %}
+                        <th class="project-containter">
+                            <h2 class ="project-descr">{{item.project-descr}}</h2>
+                        </th>
+                    {% endfor %}
+                </tr>
+                <!--Projects Paragraphs-->
+                <tr>
+                    {% for item in site.data.details.projects.project-elements %}
+                        <th class="project-containter">
+                            <p class="project-para">{{item.project-parag}}</p>
+                        </th>
+                    {% endfor %}
+                </tr>
+            </table>
+        </div>
+        
+    <!---------------------------------------------------------------------------------------->  
+
+        <div class="skills">
+                <h1>{{site.data.details.skillset.title}}</h1>
+                <ul>
+                    {% for item in site.data.details.skillset.skills %}
+                    <li>
+                        <div class="skill-element">
+                            <img class="skill-img" src="{{item.skill-img}}">
+                            <progress class="skill-bar" value="{{item.skill-knowledge}}" max="100"> 32%</progress>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+        </div>
+    </body>
+</html>

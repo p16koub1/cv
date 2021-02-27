@@ -1,0 +1,209 @@
+*
+{
+    box-sizing: border-box;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 4vw;
+    padding-bottom: 1vw;
+}
+
+body
+{
+    background-image: url("images/background.png");
+    color:rgb(239, 248, 255);
+    font-family: monospace;
+}
+
+/* Projects */
+ul{list-style-type:none;}
+
+.projects-container
+{
+    padding-top: 8vw;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.projects-table
+{
+    width: 100%;
+}
+
+.project-image
+{
+    width:14vw;
+}
+
+.project-descr
+{
+    font-size:2.4vw;
+}
+
+.project-para
+{
+    font-size: 1vw;
+}
+
+/* About me */
+
+.about-me
+{
+    text-align: center;
+    margin-bottom: 4vw;
+}
+
+.column
+{
+    float: left;
+    width: 33.33%;
+    padding: 0.2vw;
+    
+}
+
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profile-photo
+{
+    width: 20vw;
+    margin-left: 0.5vw;
+}
+
+.name-surname
+{
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.about-me-text
+{
+    font-size: 1.3vw;
+    margin-top: 2vw;
+}
+
+.about-me-head
+{
+    margin-top: 2vw;
+    font-size: 2.5vw;
+}
+
+/* About me - Contact me */
+.contact-me
+{
+    float:right;
+    margin-right: 8vw;
+    padding-top: 2vw;
+    
+}
+
+.image-bp
+{
+    width:2vw;
+}
+
+.contact-p
+{
+    margin-bottom: 1vw;
+    font-size: 0.8vw;
+    
+}
+
+
+
+.contact-table
+{
+    
+}
+
+/*Work-Experience*/
+
+.work-column
+{
+    float: left;
+    width: 33.33%;
+    padding: 0.2vw;     
+}
+
+.work-row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.work-list-element
+{
+    border-style: dashed;
+    border-color: rgb(239, 248, 255);
+    margin-top: 1vw;
+}
+
+.work-for
+{
+    padding-top: 7vw;
+}
+
+.work-img
+{
+    width: 8vw;
+}
+
+.work-title
+{
+    font-size: 3vw;
+}
+
+.work-parag
+{
+    font-size: 1.5vw;
+}
+
+/*Skillset*/
+.skills
+{
+    text-align: center;
+    width: 100%;
+    padding-top: 10vw;
+    padding-bottom: 2vw;
+}
+
+.skill-img
+{
+    width:5vw;
+}
+
+.skill-bar
+{
+    width: 80vw;
+    height: 5vw;
+    
+}
+
+.skills li
+{
+    padding-top: 2vw;
+}
+
+.skill-label
+{
+    font-size: 2vw;
+    
+}
+
+progress
+{
+    background-color: rgb(35, 41, 62);
+    border-style: dashed;
+    border-width: 0.3vw;
+    text-align: center;
+
+}

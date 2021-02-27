@@ -1,3 +1,114 @@
 ---
 #Personal details
 name: Tandalos
+
+#You can change values inside this yml file
+#To customize your own portfolio
+#If you want to create a new element:
+#Copy an existing one then paste it right below
+
+about-me:
+  #Page Title(Leave Blank if you dont wish one)
+  title: Portfolio
+  #Basic Infromation
+  name: Pantelis
+  surname: Koumpoulidis
+  #Suggested Image Resolution: 1054x1054
+  photo: images/profile.png
+
+  #About me informations(Use <br> to change line)
+  header: about me
+  text: >
+    My name is Pantelis, I live in Greece and
+    Im a student In the Ionian University. In<br>
+    my free time Im making scripts and mechanics
+    for games in Unity Engine. I scetch figures
+    and<br>making game characters. I also play video games.
+    My goal is to combine the things<br>I enjoy the most,
+    Design and Coding. Thats why Im interested in domains
+    like Game Development,<br> Website Development, Software
+    Design and Character Illustration.
+
+  #Contact me Section:
+  #You can add multiple contact options:
+  #Suggested Image Resolution: 600x600
+  contact-me:
+    contact-ways:
+    #1st Contact-me
+    - contact-img: images/email.png
+      contact-label: tandalos98@gmail.com
+    #1st Contact-me
+    - contact-img: images/phone.png
+      contact-label: 6974429603
+    #2nd Contact-me
+    - contact-img: images/facebook.png
+      contact-label: /tandalos
+    #3rd Contact-me
+    - contact-img: images/gihub.png
+      contact-label: /p16koub1
+
+#Work Experience Section:
+#You can add more work experiences:
+#Suggested Image Resolution: 650x650
+work-for:
+  title: Worked For
+  works:
+  #Work 1
+  - work-title: Public (2019)
+    work-img: images/public.png
+    work-descr: >
+      The summer of 2019, I worked as a salesman
+      in the branch store of Corfu.
+  #Work 2
+  - work-title: Battlenet (2018)
+    work-img: images/battlenet.png
+    work-descr: >
+      The summer of 2018 I worked in the internet
+      cafe chain battlenet. 
+
+#Skills-Knowledge Section:
+#You can add more skills:
+#Suggested Image Resolution: 512x512
+skillset:
+  title: Programming Skills
+  skills:
+  #Skill 1:
+  - skill-img: images/cs.png
+    skill-knowledge: 80
+  #Skill 2:
+  - skill-img: images/netcore.png
+    skill-knowledge: 70
+  #Skill 3:
+  - skill-img: images/html.png
+    skill-knowledge: 50
+  #Skill 3:
+  - skill-img: images/python.png
+    skill-knowledge: 40
+
+#Projects Section:
+#You can add more projects(Recomended 3 - 6)
+#Suggested Image Resolution: 256x256
+projects:
+  title: Knowledge
+  project-elements:
+  #Project 1:
+  - project-img: images/unity.png
+    project-descr: Unity Game<br>Develpment
+    project-parag: >
+      I have a 3 years experience<br>with game
+      development in<br>Unity engine.I made
+      many<br>projects such as Survival,<br>FPS,
+      Platformer Games.
+  #Project 2:
+  - project-img: images/web.png
+    project-descr: Web<br>Development
+    project-parag: >
+      I recently started to learn<br>HTML and CSS
+      I have a bit<br>more than basic knowledge on
+      this domain
+  #Project 3:
+  - project-img: images/digital.png
+    project-descr: Digital<br>Art
+    project-parag: >
+      I'm familiar with Photoshop<br>and Illustrator
+      I have some<br>skills in design and drawing

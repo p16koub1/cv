@@ -1,6 +1,6 @@
 ---
 #Personal details
-name: Tandalos
+name: Portfolio
 
 #You can change values inside this yml file
 #To customize your own portfolio
@@ -9,7 +9,7 @@ name: Tandalos
 
 about-me:
   #Page Title(Leave Blank if you dont wish one)
-  title: Portfolio
+  title: 
   #Basic Infromation
   name: Pantelis
   surname: Koumpoulidis
@@ -19,15 +19,12 @@ about-me:
   #About me informations(Use <br> to change line)
   header: about me
   text: >
-    My name is Pantelis, I live in Greece and
-    Im a student In the Ionian University. In<br>
-    my free time Im making scripts and mechanics
-    for games in Unity Engine. I scetch figures
-    and<br>making game characters. I also play video games.
-    My goal is to combine the things<br>I enjoy the most,
-    Design and Coding. Thats why Im interested in domains
-    like Game Development,<br> Website Development, Software
-    Design and Character Illustration.
+    I am currently a student at ionian university in
+    the field of computer science, with my main interests<br>
+    being game development, software design, and character
+    illustration. These particular fields<br> of my study allow
+    me to interact with the things I enjoy the most ,which are
+    , designing and coding
 
   #Contact me Section:
   #You can add multiple contact options:
@@ -39,7 +36,7 @@ about-me:
       contact-label: tandalos98@gmail.com
     #1st Contact-me
     - contact-img: images/phone.png
-      contact-label: 6974429603
+      contact-label: 6900000000
     #2nd Contact-me
     - contact-img: images/facebook.png
       contact-label: /tandalos
@@ -57,14 +54,16 @@ work-for:
   - work-title: Public (2019)
     work-img: images/public.png
     work-descr: >
-      The summer of 2019, I worked as a salesman
-      in the branch store of Corfu.
+      I have worked as a salesman in the past in the
+      branch store of public in Corfu, which allowed
+      me to interact with gadgets, computers, cellphones
+      and more in the summer of 2019
   #Work 2
   - work-title: Battlenet (2018)
     work-img: images/battlenet.png
     work-descr: >
-      The summer of 2018 I worked in the internet
-      cafe chain battlenet. 
+      I have been also an employee at an internet café
+      chain in my city of origin in 2018 
 
 #Skills-Knowledge Section:
 #You can add more skills:
@@ -95,20 +94,21 @@ projects:
   - project-img: images/unity.png
     project-descr: Unity Game<br>Develpment
     project-parag: >
-      I have a 3 years experience<br>with game
-      development in<br>Unity engine.I made
-      many<br>projects such as Survival,<br>FPS,
-      Platformer Games.
+      
+      In the Unity engine in particular<br>
+      in the past, I have created<br>many projects 
+      such as Survival<br>, FPS, platformer games
   #Project 2:
   - project-img: images/web.png
     project-descr: Web<br>Development
     project-parag: >
-      I recently started to learn<br>HTML and CSS
-      I have a bit<br>more than basic knowledge on
-      this domain
+      I have recently started to learn<br>
+      HTML and CSS and consider myself<br>having
+      more than average<br>knowledge in this domain.
   #Project 3:
   - project-img: images/digital.png
     project-descr: Digital<br>Art
     project-parag: >
-      I'm familiar with Photoshop<br>and Illustrator
-      I have some<br>skills in design and drawing
+      Photoshop and illustrator are<br>a more
+      or less known field to me<br>as well, with beyond
+      average<br>skills in designing and drawing.
